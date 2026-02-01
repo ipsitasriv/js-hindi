@@ -1,0 +1,52 @@
+// const score =400
+// console.log(score);//400
+
+
+// const balance=new Number(100)//[Number: 100]
+// console.log(balance);
+
+// console.log(balance.toString().length)//once converted to string can use sting methods
+
+// console.log(balance.toFixed(2))//100.00//returns no to certain decimal value
+
+
+// const otherNumber=23.578
+// console.log(otherNumber.toPrecision(3))//ranges between 1x to 21 inclusive
+
+
+// const otherNumber1=1123.578
+// console.log(otherNumber1.toPrecision(3))//1.12e+3
+
+// //const otherNumber2=1123.578
+// //console.log(otherNumber2.toPrecision(-3))//cant be negative
+
+// const hundreds=10000000
+// console.log(hundreds.toLocaleString())//international
+
+// console.log(hundreds.toLocaleString("en-IN"))//indian
+
+// console.log(Number.MAX_SAFE_INTEGER)//max safe value
+// console.log(Number.MAX_VALUE)
+
+//****************************maths***************** */
+
+
+
+console.log(Math)
+console.log(Math.abs(-4))
+//round=>gives roundoff
+//maths.ceil=gives ceiling
+//maths.floor=gives floor function
+console.log(Math.min(23,3,4,6))
+console.log(Math.max(23,3,422,6))
+
+console.log(Math.random())//random number between 0 and 1
+console.log((Math.random()*10)+1)//number above 1
+
+
+const min=10
+const max=20
+
+console.log((Math.floor(Math.random()*10)+1))//rounded off natural no
+
+console.log(Math.floor(Math.random()*(max-min+1)+min))//between a certain range
