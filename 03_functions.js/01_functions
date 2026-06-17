@@ -1,0 +1,76 @@
+// function saymyname(){
+//     console.log("hi")
+// }
+
+
+// for(let i=0;i++;i<=5){
+//     saymyname() }
+
+// function addtwo(a,b){
+//     return a+b
+// }
+// // sum=addtwo(5,6)
+// // console.log(sum)
+
+
+// // sum=addtwo(5,"4")
+// // console.log(typeof(sum))
+
+// // sum=addtwo(5,"a")
+// // console.log(typeof(sum))
+
+// // sum=addtwo(5,null)
+// // console.log(typeof(sum))
+
+// //in js if no argument is passed then it returns undefined
+
+// function loginUser(user){
+//     if(!user){
+//         console.log("enter a user")
+//         return
+//     }
+// }
+
+
+// function loginUser(user="ssm"){
+//     if(!user){
+//         console.log("enter a user")
+//         return
+//     }
+// }
+
+
+// function add(...num1){
+//     return num1
+//     }
+
+// function add(val1,val2,...num1){
+//     return num1
+//     }
+
+// console.log(add(22,3,5,6))//val1 and val2 took the initial values
+
+const user={
+    username:"hitesh",
+    price:199// if price -> prices returns undefined
+
+}
+
+function handObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`)
+}
+
+handObject(user)
+//or
+
+handObject({
+    username:"sam",
+    price: 119
+})
+
+
+const myNewArray =[222,33,44,55,6]
+
+function returnSecondValu(getArray){
+    return getArray[1]
+}
