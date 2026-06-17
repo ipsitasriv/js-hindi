@@ -28,7 +28,48 @@ const obj2={
 }
 
 //const obj3={obj1,obj2}
-//const obj3=Object.assign({}, obj1,obj2)
+const obj3=Object.assign({}, obj1,obj2)
 
 const obj3={...obj1,...obj2}
 console.log(obj3)
+
+const users=[
+    {},{},{}
+]//array of objects
+
+
+users[1].email
+
+Object.keys(tinderUser)//returns array of keys
+Object.values(tinderUser)//returns array of values
+
+Object.entries(tinderUser)//returns array of key value pairs
+
+tinderUser.hasOwnProperty("isLogged")//returns true or false
+
+
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+
+}
+
+const {courseInstructor:instructor}=course  //gives tag to value
+
+const navbar= ({company}) =>{
+
+}
+navbar(company= "hitesh")//destructuring
+
+//{
+//    "name":"hitesh",
+//    "coursename" :"js in hindi",
+ //   price :"free"
+}//json
+
+
+[{},
+{},
+ 
+]
