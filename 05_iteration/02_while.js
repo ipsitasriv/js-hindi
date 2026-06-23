@@ -79,14 +79,46 @@
     
 // }
 
-const myCoding=[{
-    languageName:"javascript",
-    languageFileName:"js"}
-    ,{
+// const myCoding=[{
+//     languageName:"javascript",
+//     languageFileName:"js"}
+//     ,{
 
-    },{},{}]
+//     },{},{}]
 
 
-    myCoding.forEach((item)=>{
-        console.log(item.languageFileName);
-    })
+//     const values=myCoding.forEach((item)=>{
+//         console.log(item.languageFileName);
+//     })//doesnt return value
+
+
+// const mynums=[1,2,3,4,5,6,7,8,9,10]
+
+// // const x=mynums.filter((num)=>num>5)
+// // console.log(x)//[ 6, 7, 8, 9, 10 ]
+
+// const x=mynums.filter((x)=>{
+//     x>4
+// })
+// console.log(x)//[  ]
+
+// const x=mynums.filter((x)=>{
+//     return x>4
+// })
+// console.log(x)//must add return with paranthesis
+
+// const userBooks=books.filter((book)=>book.title===)
+
+myNumers=[1,2,3,4,5,6,7,8,9,10]
+const newNums=myNumers
+        .map((num=>num*10))
+        .map((num=>num+1))
+        .filter((num)=>num>=40)
+
+//         console.log(myNumers);//[
+//   1, 2, 3, 4,  5,
+//   6, 7, 8, 9, 10
+// ]
+
+const myNums=[1,2,3]
+const sumwithinitial=myNums.reduce((acc,item)=>)
